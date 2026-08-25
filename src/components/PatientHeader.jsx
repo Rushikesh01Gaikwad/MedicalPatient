@@ -7,7 +7,7 @@ export default function PatientHeader({ patient }) {
 
   return (
     <div className="space-y-3">
-      <div className="flex items-center gap-2 text-sm text-slate-500">
+      <div className="flex items-center gap-2 text-sm text-slate-500 rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
         <Link to="/" className="flex items-center gap-1 hover:text-slate-700">
           <IconArrowLeft className="h-4 w-4" />
           Back
